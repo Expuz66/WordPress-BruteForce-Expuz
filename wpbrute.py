@@ -11,13 +11,9 @@ RESET = "\033[0m"
 
 # ASCII Art dari file yang dikirim
 ascii_art = f"""{GREEN}
-██╗    ██╗██████╗ ██████╗ ██████╗ ██╗   ██╗████████╗███████╗
-██║    ██║██╔══██╗██╔══██╗██╔══██╗██║   ██║╚══██╔══╝██╔════╝
-██║ █╗ ██║██████╔╝██████╔╝██████╔╝██║   ██║   ██║   █████╗  
-██║███╗██║██╔═══╝ ██╔══██╗██╔══██╗██║   ██║   ██║   ██╔══╝  
-╚███╔███╔╝██║     ██████╔╝██║  ██║╚██████╔╝   ██║   ███████╗
- ╚══╝╚══╝ ╚═╝     ╚═════╝ ╚═╝  ╚═╝ ╚═════╝    ╚═╝   ╚══════╝
-         {YELLOW}WordPress Bruteforce by ToSoon Squad{RESET}
+░▒▓🅱🆁🆄🆃🅴 🆆🅾🆁🅳🅿🆁🅴🆂🆂     
+
+{BLUE}WordPress Bruteforce by ToSoon Squad{RESET}
 """
 
 # Fungsi untuk mencari username otomatis

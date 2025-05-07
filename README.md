@@ -1,10 +1,9 @@
-# WPBrute - WordPress Bruteforce Tool
+# WordPress Bruteforce Tool
 
 ![WPBrute](https://img.shields.io/badge/WPBrute-WordPress%20Bruteforce-red)
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
 
-WPBrute adalah alat untuk melakukan brute force pada sistem login WordPress. Tool ini dikembangkan oleh ToSoon Squad untuk tujuan pengujian keamanan dan penetrasi.
+WordPress Bruteforce adalah alat untuk melakukan brute force pada sistem login WordPress. Tool ini dikembangkan oleh ToSoon Squad untuk tujuan pengujian keamanan dan penetrasi.
 
 ## ⚠️ Peringatan
 
@@ -19,25 +18,19 @@ Penggunaan tool ini untuk aktivitas ilegal atau tanpa izin adalah tanggung jawab
 
 - Pencarian username otomatis melalui WordPress REST API
 - Fallback ke metode alternatif jika API tidak tersedia
-- Antarmuka interaktif dengan warna
 - Logging detail untuk debugging
 - Mendukung multiple username
-- Tampilan ASCII art yang menarik
 
 ## 📋 Persyaratan
 
 - Python 3.x
-- Modul Python yang dibutuhkan:
-  - requests
-  - re
-  - os
 
 ## 🛠️ Instalasi
 
 1. Clone repository ini:
 ```bash
 git clone git@github.com:Expuz66/WordPress-BruteForce-Expuz.git
-cd https://github.com/Expuz66/WordPress-BruteForce-Expuz.git
+cd WordPress-BruteForce-Expuz
 ```
 
 2. Install dependencies:
@@ -62,7 +55,7 @@ python3 wpbrute.py
 ```bash
 $ python3 wpbrute.py
 Masukkan URL target (contoh: https://example.com): https://example.com
-Masukkan path file password list: /path/to/wordlist.txt
+Masukkan path file password list: wordlist.txt
 ```
 
 ## 🔍 Cara Kerja
@@ -72,10 +65,6 @@ Masukkan path file password list: /path/to/wordlist.txt
 3. User memilih username yang akan digunakan
 4. Melakukan brute force dengan wordlist yang diberikan
 5. Menampilkan hasil proses brute force
-
-## 📜 Lisensi
-
-Proyek ini dilisensikan di bawah lisensi MIT - lihat file [LICENSE](LICENSE) untuk detail lebih lanjut.
 
 ## ⚡ Disclaimer
 
